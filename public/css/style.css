@@ -1,0 +1,151 @@
+body {
+    background-color: #f7f7f7; /* Light background */
+    font-family: Arial, sans-serif;
+}
+/* Contact page container */
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; /* Professional white content background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-page h1 {
+    color: #0044cc; /* Blue color for headings */
+}
+
+/* Labels and inputs */
+.contact-form label {
+    text-align: left;
+    color: #0044cc; /* Blue label color */
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* Submit button */
+.btn-submit {
+    background-color: #ffd700; /* Yellow submit button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #ffcc00; /* Slightly darker yellow on hover */
+}
+
+/* Image container */
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Navbar Styling */
+header {
+    background-color: #ffffff; /* Light background for header */
+    border-bottom: 1px solid #e0e0e0; /* Border for separation */
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #0044cc; /* Blue link color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 70vh;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa; /* Light grey background for the footer */
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer p {
+    margin: 0;
+    color: #6c757d; /* Grey text color */
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #0044cc; /* Blue link color */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+/* Homepage Content */
+.homepage-content {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.homepage-content h1 {
+    color: #0044cc; /* Blue color for headings */
+}
+
+.homepage-content p {
+    color: #333; /* Dark text color for readability */
+    font-size: 18px;
+    line-height: 1.6;
+}
